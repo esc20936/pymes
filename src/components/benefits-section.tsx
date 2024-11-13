@@ -4,9 +4,9 @@ import { AppWindow, BarChart2, DollarSign } from "lucide-react";
 
 export function BenefitsSectionComponent() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-r from-purple-50/10 via-indigo-100 to-purple-50/10">
+    <section className="py-16 px-4 bg-gradient-to-r ">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-indigo-900 mb-4">¿Cómo Bam Len te ayuda a mejorar la gestión financiera?</h2>
+        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 mb-4">¿Cómo Bam Len te ayuda a mejorar la gestión financiera?</h2>
         <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">
           Como dueño de una PYME, tener control sobre tus finanzas es crucial. Descubre cómo Bam Len optimiza la administración de tu negocio, ahorrándote tiempo y dinero.
         </p>
@@ -15,7 +15,7 @@ export function BenefitsSectionComponent() {
           {/* Control Financiero Inteligente */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <BarChart2 className="w-8 h-8 text-indigo-600" />
+              <BarChart2 className="w-8 h-8 text-purple-600" />
             </div>
             <h3 className="text-lg font-semibold mb-2 text-indigo-900">Control Financiero Inteligente</h3>
             <p className="text-gray-600">

@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Facebook, Instagram, Twitter } from "lucide-react"
 
 export function FooterComponent() {
-  const [email, setEmail] = useState("''")
+  const [email, setEmail] = useState("")
   const [submitted, setSubmitted] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -15,7 +15,7 @@ export function FooterComponent() {
     // Here you would typically send the email to your server
     console.log("'Submitted email:'", email)
     setSubmitted(true)
-    setEmail("''")
+    setEmail("")
   }
 
   return (
